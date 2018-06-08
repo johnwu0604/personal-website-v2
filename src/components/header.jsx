@@ -6,8 +6,13 @@ class Header extends React.Component {
         <div class="header">
             <div class="container">
                 <h2>JOHN WU</h2>
-                <p>I LIKE ADVENTURES, SPICY FOOD, AND CREATING COOL SHIT.</p>
+                <p>I LIKE OUTDOOR ADVENTURES, SPICY FOOD, AND CREATING COOL SHIT.</p>
                 <hr></hr>
+                <ul>
+                    <li><i class="fa fa-linkedin"></i></li>
+                    <li><i class="fa fa-facebook-square"></i></li>
+                    <li><i class="fa fa-medium"></i></li>
+                </ul>
             </div>
         </div>
     );

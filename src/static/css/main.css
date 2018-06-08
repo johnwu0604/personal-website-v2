@@ -61,4 +61,21 @@ h1, h2, h3, h4, p {
     padding: 0; 
 }
 
+.header i.fa {
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #8dacdd;
+  color: #8dacdd;
+  padding: 0.5em 0.6em; 
+  font-size: 25px;
+}
+
+.header ul {
+    -webkit-padding-start: 0px;
+}
+
+.header li {
+    padding: 10px;
+    display: inline-block;
+}
+
 
