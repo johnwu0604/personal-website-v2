@@ -6,7 +6,8 @@ class Header extends React.Component {
         <div class="header">
             <div class="container">
                 <h2>JOHN WU</h2>
-                <p>I LIKE GOING ON ADVENTURES, COOKING SPICY FOOD, AND BUILDING COOL SHIT.</p>
+                <p>I LIKE ADVENTURES, SPICY FOOD, AND CREATING COOL SHIT.</p>
+                <hr></hr>
             </div>
         </div>
     );
