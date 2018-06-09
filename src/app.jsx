@@ -1,10 +1,14 @@
 import React from 'react';
 import Header from './components/header.jsx'
+import About from './components/about.jsx'
 
 class App extends React.Component {
   render() {
     return (
-      <Header></Header>
+      <div>
+        <Header></Header>
+        <About></About>
+      </div>
     );
   }
 }

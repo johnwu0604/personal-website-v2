@@ -5,8 +5,9 @@ body {
 
 h1, h2, h3, h4, p {
     font-family: 'Oswald', 'sans-serif';
-    color: rgba(255,255,255,0.761);
 }
+
+/* Header Component */
 
 .header {
     /* Sizing */
@@ -26,7 +27,12 @@ h1, h2, h3, h4, p {
     background-attachment: fixed;
 }
 
-.header h2 {
+.header p {
+    color: rgba(255,255,255,0.761);
+}
+
+.header h1 {
+    color: rgba(255,255,255,0.761);
     margin-top: 0;
     margin-bottom: 0.5em;
     letter-spacing: 0.65rem;
@@ -63,11 +69,17 @@ h1, h2, h3, h4, p {
 
 .header i.fa {
   border-radius: 50%;
-  box-shadow: 0px 0px 2px #8dacdd;
-  color: #8dacdd;
+  box-shadow: 0px 0px 2px #5281cb;
+  color: #5281cb;
   padding: 0.5em 0.6em; 
   font-size: 25px;
 }
+
+.header i.fa:hover {
+    box-shadow: 0px 0px 2px #8dacdd;
+    color: #8dacdd;
+  }
+  
 
 .header ul {
     -webkit-padding-start: 0px;
@@ -76,6 +88,50 @@ h1, h2, h3, h4, p {
 .header li {
     padding: 10px;
     display: inline-block;
+}
+
+/* About Component */
+
+.about {
+    padding: 40px;
+}
+
+.about h1 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    width: calc(100% + 0.65rem);
+    font-size: 2.5em;
+    line-height: 1.175;
+    text-align: inherit;
+    font-variant: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 200; 
+}
+
+.about hr {
+    margin-right: 80%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #000;
+    padding: 0; 
+}
+
+.img-circular {
+    width: 300px;
+    height: 300px;
+    background-image: url('../img/sf.jpg');
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin-top: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 
