@@ -4,17 +4,19 @@ class Timeline extends React.Component {
 
   render() {
     return (
-        <div class="container">
-            <div class="row">
-                <div class="timeline-header col-md-12">
-                    <h1>My Journey</h1>
-                    <p>{desc}</p>
+        <div class="journey">
+            <div class="container">
+                <div class="row">
+                    <div class="timeline-header col-md-12">
+                        <h1>My Journey</h1>
+                        <p>{desc}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline">
-                        {createTable()}
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-timeline">
+                            {createTable()}
+                        </div>
                     </div>
                 </div>
             </div>

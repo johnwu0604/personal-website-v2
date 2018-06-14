@@ -95,6 +95,7 @@ h1, h2, h3, h4, p {
 .about {
     padding: 40px;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .about h1 {
@@ -152,6 +153,13 @@ h1, h2, h3, h4, p {
 
 
 /* Timeline Component */
+
+.journey {
+    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: lightgray;
+}
 
 .timeline-header h1 {
     text-align: center;
