@@ -158,11 +158,26 @@ h1, h2, h3, h4, p {
     padding: 40px;
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #5281cb;
+    background-image: linear-gradient(rgba(51, 25, 0, 0.8),rgba(0, 0, 0, 0.8)), url('../img/tree.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Background styles */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .timeline-header {
     text-align: center;
+}
+
+.timeline-header h1 {
+  color: #ffffff;
+}
+
+.timeline-header p { 
+  color: #ffffff;
 }
 
 .timeline .timeline-item::after, .timeline .timeline-item::before {
@@ -239,8 +254,9 @@ h1, h2, h3, h4, p {
   .timeline i.fa {
     border-radius: 50%;
     color: #000;
-    padding: 0.5em 0.6em; 
+    padding: 12px 14px 15px 15px; 
     font-size: 25px;
+    text-align: center;
   }
   
   .timeline .timeline-item .timeline-content {

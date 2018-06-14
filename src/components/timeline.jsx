@@ -26,7 +26,7 @@ class Timeline extends React.Component {
 
 }
 
-const desc = 'A mixture of school, work, and opportunities have brought me on endless experiences. I have lived in 6 different cities that span over 3 countries, and have travelled to many more. Here is a summary of my journey.'
+const desc = 'A mixture of school, work, and opportunities have brought me on endless experiences to places around the world. To this day, I have lived in six different cities which span over three different countries. This constantly changing environment keeps everything unpredictable and exciting as a result. Here is a summary of my life journey so far.'
 
 var journey = [
     {
@@ -42,15 +42,15 @@ var journey = [
         'desc' : 'The next 12 years of my life was spent growing up in Surrey, BC. I spent most of my childhood playing sports. Basketball was my primary sport but throughout high school I was also part of the volleyball, rugby, wrestling, track and field, and cross country teams. At the time, I was simply having fun. Little did I know, I was really developing leadership skills and personal habits that would ultimately bring me to where I am today.'
     },
     {
-        'icon' : 'graduation-cap',
+        'icon' : 'book',
         'year' : '2014',
         'title': 'La Vie De Montreal',
         'desc' : 'The prestige, the city, and the opportunity to experience something new brought me to McGill University where I am currently in my final year of computer engineering. While I McGill, I have been actively involved in many clubs that include the McGill AI Society (President), DECA McGill (President), First-Year Engineering Council (President), Departmental Council (Computer Eng Rep), and Television McGill (Editor).'
     },
     {
-        'icon' : 'code',
+        'icon' : 'stack-overflow',
         'year' : '2016',
-        'title': 'Capital Of Canada',
+        'title': 'Ottawa Eh',
         'desc' : 'My first internship experience brought me to Ottawa, ON where I worked at Mxi Technologies (IFS) for 8 months as a software developer. I was part of the team in charge integrating custom patches to a core web application that was used to manage airline maintenance operations. During this same period, I also discovered the concept of hackathons and have been to over 15 hackathons ever since. It was also during this period that I was able to confirm my true love for programming.'
     },
     {
@@ -66,7 +66,7 @@ var journey = [
         'desc' : 'An interest to leverage more of my leadership skills has brought my to Microsoft where I am currently interning as a program manager in the Seattle office. I am part of the Azure Batch AI team where I get to interact with data scientists, designers, developers, and managers to build tools for training ML models in the cloud. Being in Seattle means being close to my family (in Vancouver), so I have been leveraging this opportunity to see as much of my family as possible.'
     },
     {
-        'icon' : 'question',
+        'icon' : 'arrow-circle-right',
         'year' : 'Who knows?',
         'title': 'The Future',
         'desc' : 'I have one more year left at McGill before I graduate. Where will I be next? Who knows! My life has been full of surprises and experiences because I have kept an open mindset to new opportunities. I have some rough ideas for the future, and will not settle for anything less than success, but for the most part... I will go whereever life takes me!'
@@ -81,7 +81,7 @@ var createTable = () => {
                             <i class={'fa fa-'+journey[i].icon+''}></i>   
                         </div>
                         <div class={i%2 == 0 ? 'timeline-content' : 'timeline-content right'}>
-                            <p class="timeline-content-date">{journey[i].title} ({journey[i].year})</p>
+                            <p class="timeline-content-date"><u>{journey[i].title} ({journey[i].year})</u></p>
                             <p>{journey[i].desc}</p>
                         </div>
                     </div>
