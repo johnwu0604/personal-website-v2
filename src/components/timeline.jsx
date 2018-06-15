@@ -26,50 +26,79 @@ class Timeline extends React.Component {
 
 }
 
-const desc = 'A mixture of school, work, and opportunities have brought me on endless experiences to places around the world. To this day, I have lived in six different cities which span over three different countries. This constantly changing environment keeps everything unpredictable and exciting as a result. Here is a summary of my life journey so far.'
+const desc = 'A mixture of school, work, and opportunities have \
+brought me on endless experiences to various places around the world. To this day,\
+ I have lived in six different cities which span over three different countries. \
+ This constantly changing environment keeps everything unpredictable and exciting \
+ as a result. Here is a summary of my life journey so far.'
 
 var journey = [
     {
         'icon' : 'child',
         'year' : '1996',
         'title': 'The Newfie Life',
-        'desc' : 'I was born in Carbonear, Newfoundland - a small town of 4000 peope on the atlantic coast of Canada. This was the town that my parents first settled in upon immigrating from China. I lived in Newfoundland for the first six years of my life where I lived the simple small county life, became the token Asian family in town, and developed a Newfie accent (that I eventually lost).'
+        'desc' : 'I was born in Carbonear, Newfoundland - a small town of 4000 peope on the \
+        atlantic coast of Canada. This was the town that my parents first settled in upon immigrating from China. \
+        I lived in Newfoundland for the first six years of my life where I experienced the small town lifestyle, \
+        became the token Asian family in that town, and developed a Newfie accent (which I eventually lost).'
     },
     {
         'icon' : 'tree',
         'year' : '2002',
         'title': 'Beautiful British Columbia',
-        'desc' : 'The next 12 years of my life was spent growing up in Surrey, BC. I spent most of my childhood playing sports. Basketball was my primary sport but throughout high school I was also part of the volleyball, rugby, wrestling, track and field, and cross country teams. At the time, I was simply having fun. Little did I know, I was really developing leadership skills and personal habits that would ultimately bring me to where I am today.'
+        'desc' : 'The next 12 years of my life was spent growing up in Surrey, BC. I spent most of my childhood \
+         living here and playing sports. Basketball was my primary sport but throughout high school I was also part of the volleyball,\
+         rugby, wrestling, track & field, and cross country teams. Playing on so many different sports teams developed the \
+          leadership skills and personal habits that would ultimately bring me to where I am today.'
     },
     {
         'icon' : 'book',
         'year' : '2014',
         'title': 'La Vie De Montreal',
-        'desc' : 'The prestige, the city, and the opportunity to experience something new brought me to McGill University where I am currently in my final year of computer engineering. While I McGill, I have been actively involved in many clubs that include the McGill AI Society (President), DECA McGill (President), First-Year Engineering Council (President), Departmental Council (Computer Eng Rep), and Television McGill (Editor).'
+        'desc' : 'The prestige, the city, and the opportunity to experience something new resulted in my decision to attend McGill University \
+        where I am currently in my final year of my computer engineering degree. While at McGill, I have been actively involved \
+        in student organizations that include the McGill AI Society (Co-President), DECA McGill (Co-President), First-Year Engineering \
+        Council (Co-President), Departmental Council (Computer Eng Rep), and Television McGill (Editor). Moving to Montreal was the first time I lived away \
+        from my family and was the start to some of the most exciting years in my life.'
     },
     {
         'icon' : 'stack-overflow',
         'year' : '2016',
         'title': 'Ottawa Eh',
-        'desc' : 'My first internship experience brought me to Ottawa, ON where I worked at Mxi Technologies (IFS) for 8 months as a software developer. I was part of the team in charge integrating custom patches to a core web application that was used to manage airline maintenance operations. During this same period, I also discovered the concept of hackathons and have been to over 15 hackathons ever since. It was also during this period that I was able to confirm my true love for programming.'
+        'desc' : 'My first internship experience brought me to Ottawa, ON where I worked at Mxi Technologies (IFS) for \
+         8 months as a software developer. I was part of the team in charge of integrating custom patches to a core web \
+         application that was used to manage airline maintenance operations. During this same period, I also discovered \
+         the concept of hackathons and have been to over 15 hackathons ever since. It was also during this period that \
+         I started falling in love for building technology.'
     },
     {
         'icon' : 'plane',
         'year' : '2017',
         'title': 'Tokyo Drift',
-        'desc' : 'A scholarship from the Cansbridge Fellowship brought me on an unexpected journey to Tokyo, Japan where I worked for a summer at start up called FlicFit as a software engineer. I worked on a computer vision based project, engineering a mobile scanner for 3D reconstruction of feet that would be used for virtual shoe fitting. While in Tokyo, I also had the opportunity to travel across Japan and to other countries in Asia that include Korea, Taiwan, China, and Thailand.'
+        'desc' : 'A scholarship from the Cansbridge Fellowship brought me on an unexpected journey to Tokyo, Japan where \
+        I worked for a summer at a start up called FlicFit as a software engineer. I worked on a computer vision project,\
+         where I developed an algorithm for 3D reconstruction of objects using a phone camera. While in \
+         Tokyo, I also had the opportunity to travel across various cities in Japan. I also travelled to other countries in \
+         Asia including Korea, Taiwan, China, and Thailand.'
     },
     {
         'icon' : 'windows',
         'year' : '2018',
         'title': 'Sleepless In Seattle',
-        'desc' : 'An interest to leverage more of my leadership skills has brought my to Microsoft where I am currently interning as a program manager in the Seattle office. I am part of the Azure Batch AI team where I get to interact with data scientists, designers, developers, and managers to build tools for training ML models in the cloud. Being in Seattle means being close to my family (in Vancouver), so I have been leveraging this opportunity to see as much of my family as possible.'
+        'desc' : 'An interest to leverage more of my leadership skills influenced me to work at Microsoft where I am currently \
+        interning as a program manager at the Seattle office. I am part of the Azure Batch AI team where I get to interact \
+        with data scientists, designers, developers, and managers to build tools for training ML models in the cloud. \
+        Being in Seattle means being close to my family (in BC), so I have been leveraging this opportunity to \
+        see as much of my family as possible after being far from home over the last 4 years.'
     },
     {
         'icon' : 'arrow-circle-right',
-        'year' : 'Who knows?',
+        'year' : '??',
         'title': 'The Future',
-        'desc' : 'I have one more year left at McGill before I graduate. Where will I be next? Who knows! My life has been full of surprises and experiences because I have kept an open mindset to new opportunities. I have some rough ideas for the future, and will not settle for anything less than success, but for the most part... I will go whereever life takes me!'
+        'desc' : 'I have one more year left at McGill before I graduate. Where will I be next? Who knows! \
+        My life has been full of surprises and experiences because I have kept an open mindset to new opportunities. \
+        I have some rough ideas for the future, but for the most part, I will go wherever life takes me. What I do know, however, \
+        is that I will continue putting 100% effort into everything I do and will not settle for anything that is below my highest potential.'
     }
 ]
   

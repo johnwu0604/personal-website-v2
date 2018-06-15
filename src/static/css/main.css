@@ -151,6 +151,11 @@ h1, h2, h3, h4, p {
     margin-right: auto;
  }
 
+ .badge {
+  margin-right: 15px; 
+  font-size: 13px;
+}
+
 
 /* Timeline Component */
 
