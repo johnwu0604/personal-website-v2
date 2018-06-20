@@ -375,4 +375,30 @@ h1, h2, h3, h4, p {
   margin-right: 5px;
 }
   
-  
+/** Contact */
+
+.contact {
+  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(rgba(51, 25, 0, 0.8),rgba(0, 0, 0, 0.8)), url('../img/happy.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Background styles */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-header h1 {
+color: #ffffff;
+}
+
+.contact-header p { 
+color: #ffffff;
+}
