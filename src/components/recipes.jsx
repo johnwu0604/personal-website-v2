@@ -53,7 +53,7 @@ var createNavButtons = () => {
 var recipes = [
     {
         'id': 0,
-        'title': 'My Recipes',
+        'title': 'Coding and Recipes',
         'desc': 'When you first learn to program, you are told that running a piece of code is just like following a recipe. \
         Then once you learn enough recipes, you learn to creatively mix and match different snippets to create a unique piece of software. \
         I love cooking almost as much as I love coding because of their direct correlation. The following section includes the recipes for some of \
@@ -66,7 +66,7 @@ var recipes = [
     },
     {
         'id': 1,
-        'title': 'Dak Galbi (Spicy Korean Chicken)',
+        'title': 'Dak Galbi (Korean Spicy Chicken)',
         'desc': 'This is one of my favourite recipes and can even be grilled over the BBQ. Begin by cutting chicken thighs into \
         small bite size pieces. Then add minced garlic, chopped onions, gochujang (red chili paste), yellow curry powder, rice wine, \
         soya sauce, salt, and pepper to the chicken. Mix everything together. Marinate for a few hours and then grill on a pan. Once \

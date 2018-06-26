@@ -3,8 +3,8 @@ body {
     font-family: sans-serif;
 }
 
-h1, h2, h3, h4, p {
-    font-family: 'Oswald', 'sans-serif';
+h1, h2, p {
+    font-family: 'Quicksand', 'sans-serif';
 }
 
 /* Header Component */
@@ -27,8 +27,14 @@ h1, h2, h3, h4, p {
     background-attachment: fixed;
 }
 
+.header h1 {
+  color: rgba(255,255,255,0.761);
+  font-family: 'Oswald', 'sans-serif';
+}
+
 .header p {
     color: rgba(255,255,255,0.761);
+    font-family: 'Oswald', 'sans-serif';
 }
 
 .header h1 {
@@ -131,7 +137,7 @@ h1, h2, h3, h4, p {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     text-align: center;
 }
@@ -362,7 +368,7 @@ h1, h2, h3, h4, p {
   height: 300px;
   background-size: cover;
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   text-align: center;
 }

@@ -35,7 +35,7 @@ brought me on endless experiences to various places around the world. To this da
 var journey = [
     {
         'icon' : 'child',
-        'year' : '1996',
+        'year' : '(1996)',
         'title': 'The Newfie Life',
         'desc' : 'I was born in Carbonear, Newfoundland - a small town of 4000 peope on the \
         atlantic coast of Canada. This was the town that my parents first settled in upon immigrating from China. \
@@ -44,7 +44,7 @@ var journey = [
     },
     {
         'icon' : 'tree',
-        'year' : '2002',
+        'year' : '(2002)',
         'title': 'Beautiful British Columbia',
         'desc' : 'The next 12 years of my life was spent growing up in Surrey, BC. I spent most of my childhood \
          living here and playing sports. Basketball was my primary sport but throughout high school I was also part of the volleyball,\
@@ -53,17 +53,17 @@ var journey = [
     },
     {
         'icon' : 'book',
-        'year' : '2014',
+        'year' : '(2014)',
         'title': 'La Vie De Montreal',
         'desc' : 'The prestige, the city, and the opportunity to experience something new resulted in my decision to attend McGill University \
-        where I am currently in my final year of my computer engineering degree. While at McGill, I have been actively involved \
+        where I am currently in my final year of computer engineering. While at McGill, I have been actively involved \
         in student organizations that include the McGill AI Society (Co-President), DECA McGill (Co-President), First-Year Engineering \
         Council (Co-President), Departmental Council (Computer Eng Rep), and Television McGill (Editor). Moving to Montreal was the first time I lived away \
         from my family and was the start to some of the most exciting years in my life.'
     },
     {
         'icon' : 'stack-overflow',
-        'year' : '2016',
+        'year' : '(2016)',
         'title': 'Ottawa Eh',
         'desc' : 'My first internship experience brought me to Ottawa, ON where I worked at Mxi Technologies (IFS) for \
          8 months as a software developer. I was part of the team in charge of integrating custom patches to a core web \
@@ -73,7 +73,7 @@ var journey = [
     },
     {
         'icon' : 'plane',
-        'year' : '2017',
+        'year' : '(2017)',
         'title': 'Tokyo Drift',
         'desc' : 'A scholarship from the Cansbridge Fellowship brought me on an unexpected journey to Tokyo, Japan where \
         I worked for a summer at a start up called FlicFit as a software engineer. I worked on a computer vision project,\
@@ -83,7 +83,7 @@ var journey = [
     },
     {
         'icon' : 'windows',
-        'year' : '2018',
+        'year' : '(2018)',
         'title': 'Sleepless In Seattle',
         'desc' : 'An interest to leverage more of my leadership skills influenced me to work at Microsoft where I am currently \
         interning as a program manager at the Seattle office. I am part of the Azure Batch AI team where I get to interact \
@@ -93,7 +93,7 @@ var journey = [
     },
     {
         'icon' : 'arrow-circle-right',
-        'year' : '??',
+        'year' : '',
         'title': 'The Future',
         'desc' : 'I have one more year left at McGill before I graduate. Where will I be next? Who knows! \
         My life has been full of surprises and experiences because I have kept an open mindset to new opportunities. \
@@ -110,7 +110,7 @@ var createTable = () => {
                             <i class={'fa fa-'+journey[i].icon+''}></i>   
                         </div>
                         <div class={i%2 == 0 ? 'timeline-content' : 'timeline-content right'}>
-                            <p class="timeline-content-date"><u>{journey[i].title} ({journey[i].year})</u></p>
+                            <p class="timeline-content-date"><u>{journey[i].title} {journey[i].year}</u></p>
                             <p>{journey[i].desc}</p>
                         </div>
                     </div>
