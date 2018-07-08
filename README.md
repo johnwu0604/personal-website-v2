@@ -2,7 +2,7 @@
 
 Version 2 of my personal website, built using React.
 
-The website is can be found here [here](http://www.john-wu.me)
+The website is can be found [here](http://www.john-wu.me).
 
 # Running React App
 
