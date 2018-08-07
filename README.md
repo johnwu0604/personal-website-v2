@@ -12,4 +12,4 @@ To run the application, ensure node and npm are installed. Then run the followin
 npm install
 npm start
 ```
-The webapp can then be found at localhost:5000
+The webapp can then be found at localhost:5000.
