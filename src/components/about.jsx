@@ -32,13 +32,13 @@ class About extends React.Component {
                         <span class="badge badge-info">Basketball</span>
                         <span class="badge badge-primary">Internet Of Things</span>
                         <span class="badge badge-secondary">Craft Beer</span>
-                        <span class="badge badge-primary">Computer Vision</span>
+                        <span class="badge badge-primary">Azure</span>
                         <span class="badge badge-danger">Montreal</span>
                         <span class="badge badge-info">Video Production</span>
                         <span class="badge badge-secondary">Sushi</span>
                         <span class="badge badge-primary">Web Development</span>
                         <span class="badge badge-primary">Computer Vision</span>
-                        <span class="badge badge-primary">Project Management</span>
+                        <span class="badge badge-primary">Product Management</span>
                         <span class="badge badge-danger">Tokyo</span>
                         <span class="badge badge-info">Running</span>
                         <span class="badge badge-info">Camping</span>

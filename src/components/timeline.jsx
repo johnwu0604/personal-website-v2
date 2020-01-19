@@ -56,7 +56,7 @@ var journey = [
         'year' : '(2014)',
         'title': 'La Vie De Montreal',
         'desc' : 'The prestige, the city, and the opportunity to experience something new resulted in my decision to attend McGill University \
-        where I am currently in my final year of computer engineering. While at McGill, I have been actively involved \
+        where I got a bachelors degree in computer engineering. While at McGill, I was actively involved \
         in student organizations that include the McGill AI Society (Co-President), DECA McGill (Co-President), First-Year Engineering \
         Council (Co-President), Departmental Council (Computer Eng Rep), and Television McGill (Editor). Moving to Montreal was the first time I lived away \
         from my family and was the start to some of the most exciting years in my life.'
@@ -85,20 +85,21 @@ var journey = [
         'icon' : 'windows',
         'year' : '(2018)',
         'title': 'Sleepless In Seattle',
-        'desc' : 'An interest to leverage more of my leadership skills influenced me to work at Microsoft where I am currently \
-        interning as a program manager at the Seattle office. I am part of the Azure Batch AI team where I get to interact \
-        with data scientists, designers, developers, and managers to build tools for training ML models in the cloud. \
-        Being in Seattle means being close to my family (in BC), so I have been leveraging this opportunity to \
-        see as much of my family as possible after being far from home over the last 4 years.'
+        'desc' : 'An interest to leverage more of my leadership skills influenced me try out a product management role at Microsoft where I \
+        I did my last summer internship. I was part of the Azure Batch AI team where I got to interact \
+        with data scientists, designers, developers, and managers to build tools for training ML models in the cloud. Working in Seattle also allowed me to \
+        see and visit family (in Vancouver) more frequently - something that I was not able to do often over the last 4 years.'
     },
     {
         'icon' : 'arrow-circle-right',
-        'year' : '',
-        'title': 'The Future',
-        'desc' : 'I have one more year left at McGill before I graduate. Where will I be next? Who knows! \
-        My life has been full of surprises and experiences because I have kept an open mindset to new opportunities. \
-        I have some rough ideas for the future, but for the most part, I will go wherever life takes me. What I do know, however, \
-        is that I will continue putting 100% effort into everything I do and will not settle for anything that is below my highest potential.'
+        'year' : '(2019 - Present)',
+        'title': 'Living Life',
+        'desc' : 'After finishing my last internship, I returned to school to finish up my last year of studies at McGill. I was fortunate enough \
+        to be given a full-time return offer for a product manager role at Microsoft upon graduation. The close proximity to my family, my interest in the specific role, \
+        and the once-in-a-lifetime earned opportunity to work at one of the biggest tech companies in world were the deciding factors for accepting the job offer. I have been \
+        working at Microsoft now since September 2019 on the Azure Machine Learning team as product manager and it has been nothing less than exciting. I would have never expected myself \
+        to be here at this point in my life, but I have done so by working hard, taking risks, and keeping an open mindset to new opportunities. It does not stop here though, as I plan to keep doing \
+         so as I move forward in my career! Where will I eventually end up? Who knows?!'
     }
 ]
   
