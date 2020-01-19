@@ -95,11 +95,10 @@ var journey = [
         'year' : '(2019 - Present)',
         'title': 'Living Life',
         'desc' : 'After finishing my last internship, I returned to school to finish up my last year of studies at McGill. I was fortunate enough \
-        to be given a full-time return offer for a product manager role at Microsoft upon graduation. The close proximity to my family, my interest in the specific role, \
-        and the once-in-a-lifetime earned opportunity to work at one of the biggest tech companies in world were the deciding factors for accepting the job offer. I have been \
-        working at Microsoft now since September 2019 on the Azure Machine Learning team as product manager and it has been nothing less than exciting. I would have never expected myself \
-        to be here at this point in my life, but I have done so by working hard, taking risks, and keeping an open mindset to new opportunities. It does not stop here though, as I plan to keep doing \
-         so as I move forward in my career! Where will I eventually end up? Who knows?!'
+        to be given a full-time return offer as a product manager at Microsoft upon graduation. The close proximity to my family, my interest in the specific role, \
+        and the once-in-a-lifetime opportunity to work at one of the biggest tech companies in world were the deciding factors for accepting the job offer. I have been \
+        working at Microsoft now since September 2019 on the Azure Machine Learning team as product manager and it has been nothing less than exciting. If you have questions or are interested in \
+        hearing more about life journey, feel free to message me using the contact form below!'
     }
 ]
   
