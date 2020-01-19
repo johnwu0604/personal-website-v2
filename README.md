@@ -13,3 +13,12 @@ npm install
 npm start
 ```
 The webapp can then be found at localhost:5000.
+
+# Deployment
+
+The application is currently hosted on an Azure Blob Storage. To deploy, run the following commands:
+
+```
+npm run install
+az storage blob upload-batch -d <BLOB CONTAINER> --account-name <ACCOUNT NAME> -s .
+```
