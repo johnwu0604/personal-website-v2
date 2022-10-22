@@ -54,7 +54,8 @@ var recipes = [
     {
         'id': 0,
         'title': 'Coding and Recipes',
-        'desc': 'When you first learn to program, you are told that running a piece of code is just like following a recipe. \
+        'desc': 'Despite having transitioned to a product manager role upon graduation, I am still a geek at heart who loves to code. \
+        When you first learn to program, you are told that running a piece of code is just like following a recipe. \
         Then once you learn enough recipes, you learn to creatively mix and match different snippets to create a unique piece of software. \
         I love cooking almost as much as I love coding because of their direct correlation. The following section includes the recipes for some of \
         my favourite (spicy) dishes which I have came up with. However, I believe that every recipe should have their own personal touch to it, \
@@ -95,17 +96,6 @@ var recipes = [
         'left': '< Previous Recipe',
         'right': 'Next Recipe >',
         'img' : 'src/static/img/thai.jpg'
-    },
-    {
-        'id': 4,
-        'title': 'Sezchuan Chicken Stew',
-        'desc': 'This dish is soo good that I have forgotten to take a photo everytime I made this dish. Start by bringing \
-        a pot of water to a boil with spicy sezchuan sauce, chilli oil, sesame oil, chicken stock, salt, and pepper. \
-        Then cut chicken thighs, nappa cabbage, and onion into bite size pieces and add it to the soup. Slow cook it for about \
-        20 minutes and then serve it with rice.',
-        'left': '< Previous Recipe',
-        'right': 'Next Recipe >',
-        'img' : 'src/static/img/soup.png'
     }
 ]
 

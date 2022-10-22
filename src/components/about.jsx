@@ -25,16 +25,15 @@ class About extends React.Component {
                         <span class="badge badge-secondary">Spicy Food</span>
                         <span class="badge badge-primary">McGill University</span>
                         <span class="badge badge-info">Hiking</span>
-                        <span class="badge badge-primary">Artificial Intelligence</span>
+                        <span class="badge badge-primary">Machine Learninge</span>
                         <span class="badge badge-info">Cooking</span>
                         <span class="badge badge-secondary">Noodles</span>
                         <span class="badge badge-danger">Newfoundland</span>
                         <span class="badge badge-info">Basketball</span>
-                        <span class="badge badge-primary">Internet Of Things</span>
+                        <span class="badge badge-primary">ML Ops</span>
                         <span class="badge badge-secondary">Craft Beer</span>
-                        <span class="badge badge-primary">Azure</span>
+                        <span class="badge badge-primary">Azure AI</span>
                         <span class="badge badge-danger">Montreal</span>
-                        <span class="badge badge-info">Video Production</span>
                         <span class="badge badge-secondary">Sushi</span>
                         <span class="badge badge-primary">Web Development</span>
                         <span class="badge badge-primary">Computer Vision</span>
@@ -61,11 +60,12 @@ class About extends React.Component {
 }
 
 const desc = "Hi There! My name is John and thank you for visiting my personal website. \
-I'm currently in my final year of computer engineering studies at McGill University. Like all engineers, \
-I like to spend my days building things to solve real life problems. This can range anywhere from web applications \
-to robots and IoT devices. During my breaks from school or work, I enjoy cooking food (spicy food) and experimenting\
- with new recipes. I appreciate cooking, because it gives me the freedom to use my creative mindset outside of the \
- scope of engineering. During my free time, I like to adventure and spend time outdoors. As someone who is constantly\
-  working hard, nature is my gateway to destressing and refreshing my mind."
+I'm currently working at Microsoft as a product manager. More specifically, I work on the Azure ML team \
+where I'm focused on building a product that provides enterprise companies with a single platform to build, \
+deploy, and operationalize their machine learning models. Beyond my work duties, I'm generally passionate for finding \
+technology based solutions to real world problems. When something bothers me enough, I'm going to go out there and find \
+a way to fix it. When I'm not solving problems, you can usually find me playing sports or cooking food (spicy food). I \
+like to play sports because it is a fun way to stay active while refreshing my mind. \
+I like to cook, because it gives me the freedom to use my creative mindset outside of the scope of tech."
 
 export default About;
