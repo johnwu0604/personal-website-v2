@@ -12,7 +12,7 @@ class Contact extends React.Component {
                         <p>There's nothing I enjoy more than meeting new people and building genuine relationships. If you ever
                             want to go for a beer (or coffee) for any reason or for no reason at all, don't hesitate to reach out using the form below.
                         </p>
-                        <form class="form-horizontal" action="https://formspree.io/johnwu0604@gmail.com" method="POST">
+                        <form class="form-horizontal" action="https://formspree.io/f/johnwu0604@gmail.com" method="POST">
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-md-12">
